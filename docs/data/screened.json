@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-04-15T01:46:12Z",
+  "criteria": {
+    "min_upward_revisions": 2,
+    "min_consecutive_dividend_years": 3,
+    "recent_years_window": 5,
+    "rule": "upward_revisions>=min AND dividend_streak>=min AND op_margin trending up"
+  },
+  "count": 0,
+  "items": []
+}

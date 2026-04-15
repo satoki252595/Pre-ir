@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pre-IR スクリーナー — 日本株決算事前スクリーニング</title>
+<meta name="description" content="直近の日本株決算短信予定を、上方修正履歴・連続増配・営業利益率トレンドで事前スクリーニング。" />
+<link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Pre-IR スクリーナー</h1>
+    <p class="subtitle">
+      直近の日本株決算短信予定 ×
+      <span class="hl">上方修正</span> ×
+      <span class="hl">連続増配</span> ×
+      <span class="hl">営業利益率トレンド</span>
+    </p>
+    <p class="meta" id="meta">読み込み中…</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="controls">
+    <div class="control">
+      <label><input type="checkbox" id="filter-pass" checked /> スクリーニング通過のみ</label>
+    </div>
+    <div class="control">
+      <label>最小スコア
+        <input type="number" id="filter-score" value="0" min="0" max="100" step="5" />
+      </label>
+    </div>
+    <div class="control">
+      <label>表示日数
+        <select id="filter-days">
+          <option value="7">7日</option>
+          <option value="14" selected>14日</option>
+          <option value="30">30日</option>
+          <option value="9999">すべて</option>
+        </select>
+      </label>
+    </div>
+    <div class="control grow">
+      <label>銘柄検索
+        <input type="search" id="filter-q" placeholder="銘柄名 / コード" />
+      </label>
+    </div>
+  </section>
+
+  <section class="summary" id="summary"></section>
+
+  <section class="table-wrap">
+    <table id="tbl">
+      <thead>
+        <tr>
+          <th data-sort="announcement_date">発表日 ▲</th>
+          <th data-sort="code">コード</th>
+          <th data-sort="name">銘柄名</th>
+          <th data-sort="score">スコア</th>
+          <th data-sort="upward_revisions">上方修正<br><small>過去回数</small></th>
+          <th data-sort="dividend_streak_years">連続増配<br><small>年</small></th>
+          <th data-sort="op_margin_latest">営業利益率<br><small>直近</small></th>
+          <th data-sort="op_margin_slope">営業利益率<br><small>傾き</small></th>
+          <th>判定</th>
+          <th>外部</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </section>
+
+  <section class="legend">
+    <h2>スクリーニング基準</h2>
+    <ul>
+      <li><strong>上方修正</strong>:過去の業績予想で「上方修正」が <span id="th-up">2</span> 回以上</li>
+      <li><strong>連続増配</strong>:直近の年間配当が <span id="th-div">3</span> 年以上連続で増加</li>
+      <li><strong>営業利益率</strong>:直近5年で増加トレンド(回帰の傾き&gt;0 かつ 直近&gt;最古)</li>
+    </ul>
+    <p>3つすべてを満たす銘柄のみが「通過」と判定されます。スコアは各指標の重み付け合計(0〜100)です。</p>
+  </section>
+
+  <section class="legend">
+    <h2>データソース</h2>
+    <ul>
+      <li>決算予定:Kabutan / Minkabu / TraderWeb をスクレイピング</li>
+      <li>ファンダメンタルズ:<a href="https://irbank.net/" target="_blank" rel="noopener">IR BANK (irbank.net)</a></li>
+      <li>更新頻度:GitHub Actions で1日2回(日本時間 朝・夕)</li>
+      <li><em>本サービスはフォールバック/モックデータを一切使用していません。</em></li>
+    </ul>
+    <p class="disclaimer">
+      ※ 本サイトの情報は投資判断を提供するものではありません。投資はご自身の判断と責任で行ってください。
+    </p>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>
+    <a href="https://github.com/satoki252595/pre-ir" target="_blank" rel="noopener">GitHub Repository</a> ·
+    Built with GitHub Pages + Actions
+  </p>
+</footer>
+
+<script src="./app.js"></script>
+</body>
+</html>
