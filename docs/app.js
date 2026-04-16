@@ -81,17 +81,66 @@
 
   function renderMeta() {
     const meta = $("#meta");
-    if (!lastUpdated) {
-      meta.textContent = "最終更新: 不明";
+    if (!lastUpdated || !lastUpdated.generated_at) {
+      meta.textContent = "最終更新: 不明 (データ未取得)";
       return;
     }
     const d = new Date(lastUpdated.generated_at);
-    const sources = (lastUpdated.schedule_sources || []).join(", ") || "—";
+    const primary = lastUpdated.schedule_primary_source || "なし";
     meta.textContent =
       `最終更新: ${d.toLocaleString("ja-JP")} ` +
-      `/ スケジュール元: ${sources} ` +
+      `/ スケジュール元: ${primary} ` +
       `/ 評価対象: ${lastUpdated.evaluated_count} 銘柄 ` +
       `/ 通過: ${lastUpdated.screened_count} 銘柄`;
+
+    renderDiagnostics();
+  }
+
+  function renderDiagnostics() {
+    const host = document.getElementById("diagnostics");
+    if (!host) return;
+    if (!lastUpdated) { host.innerHTML = ""; return; }
+
+    const parts = [];
+    const sr = lastUpdated.schedule_sources_results || {};
+    const keys = Object.keys(sr);
+    if (keys.length) {
+      const rows = keys.map((k) => {
+        const v = sr[k] || {};
+        const cls = v.items > 0 ? "ok" : "ng";
+        const status = v.http_status ? ` HTTP ${v.http_status}` : "";
+        const err = v.error ? ` — ${escapeHtml(v.error).slice(0, 140)}` : "";
+        return `<li class="${cls}"><strong>${k}</strong>: ${v.items || 0} rows${status}${err}</li>`;
+      }).join("");
+      parts.push(
+        `<div class="diag-section">
+          <h3>スケジュール・スクレイピング結果</h3>
+          <ul class="diag-list">${rows}</ul>
+        </div>`
+      );
+    }
+
+    const ce = lastUpdated.fundamentals_connectivity_error;
+    if (ce) {
+      parts.push(
+        `<div class="diag-section">
+          <h3>ファンダメンタルズ取得エラー</h3>
+          <p class="ng"><strong>${escapeHtml(ce.source || "")}</strong>
+          — HTTP ${ce.status || "?"}</p>
+          <pre>${escapeHtml(ce.body || "")}</pre>
+        </div>`
+      );
+    } else if (lastUpdated.fundamentals_count !== undefined) {
+      parts.push(
+        `<div class="diag-section">
+          <h3>ファンダメンタルズ取得結果</h3>
+          <p>${lastUpdated.fundamentals_count} 銘柄取得
+          (失敗 ${lastUpdated.fundamentals_failure_count || 0})</p>
+        </div>`
+      );
+    }
+
+    host.innerHTML = parts.join("");
   }
 
   function renderSummary() {

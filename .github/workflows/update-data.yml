@@ -24,25 +24,50 @@ concurrency:
   group: pages-${{ github.ref }}
   cancel-in-progress: false
 
+env:
+  # Opt into node24 for actions still shipping node20 binaries.
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   update:
     name: Scrape, screen, commit
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: "3.11"
+          python-version: "3.12"
           cache: pip
           cache-dependency-path: scripts/requirements.txt
 
       - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: Connectivity probe
+        continue-on-error: true
+        run: |
+          set +e
+          UA='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+          for url in \
+            "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/index.html" \
+            "https://nikkeiyosoku.com/stock/financial_statement/month/" \
+            "https://kabutan.jp/?mode=market_kessan&market=0" \
+            "https://minkabu.jp/financial_item_ranking/earnings_plans" \
+            "https://www.traders.co.jp/market_jp/earnings_calendar" \
+            "https://finance.matsui.co.jp/find-by-schedule/index" \
+            "https://irbank.net/" \
+            "https://irbank.net/7203"
+          do
+            code=$(curl -sS -o /dev/null -w "%{http_code}" -m 15 -A "$UA" "$url")
+            echo "PROBE $code  $url"
+          done
 
       - name: Scrape earnings schedule
         run: python scripts/scrape_schedule.py
@@ -57,6 +82,9 @@ jobs:
         run: |
           echo "=== last_updated.json ==="
           cat docs/data/last_updated.json
+          echo
+          echo "=== schedule sources_results ==="
+          python -c "import json; d=json.load(open('docs/data/schedule.json')); print(json.dumps(d.get('sources_results',{}), ensure_ascii=False, indent=2))"
           echo
           echo "=== screened (first 20) ==="
           python -c "import json; d=json.load(open('docs/data/screened.json')); [print(i['code'], i['name'], 'score=', i['score']) for i in d['items'][:20]]"

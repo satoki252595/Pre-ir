@@ -153,11 +153,13 @@ def score_stock(upward: int, div_streak: int, trend: dict) -> int:
 
 def main() -> int:
     if not SCHEDULE_PATH.exists():
-        print(f"ERROR: schedule file missing: {SCHEDULE_PATH}", file=sys.stderr)
-        return 2
+        log.warning("schedule file missing — writing empty output")
+        _write_empty(reason="schedule.json missing")
+        return 0
     if not FUNDAMENTALS_PATH.exists():
-        print(f"ERROR: fundamentals file missing: {FUNDAMENTALS_PATH}", file=sys.stderr)
-        return 2
+        log.warning("fundamentals file missing — writing empty output")
+        _write_empty(reason="fundamentals.json missing")
+        return 0
 
     schedule = json.loads(SCHEDULE_PATH.read_text())
     fundamentals = json.loads(FUNDAMENTALS_PATH.read_text())
@@ -282,8 +284,14 @@ def main() -> int:
                 "schedule_count": len(items),
                 "evaluated_count": len(evaluated),
                 "screened_count": len(passed),
-                "schedule_sources": schedule.get("sources_used", []),
+                "schedule_primary_source": schedule.get("primary_source"),
+                "schedule_sources_results": schedule.get("sources_results", {}),
                 "fundamentals_source": "irbank.net",
+                "fundamentals_count": len(fund_data),
+                "fundamentals_failure_count": fundamentals.get("failure_count", 0),
+                "fundamentals_connectivity_error": fundamentals.get(
+                    "connectivity_error"
+                ),
             },
             ensure_ascii=False,
             indent=2,
@@ -291,6 +299,60 @@ def main() -> int:
     )
 
     return 0
+
+
+def _write_empty(*, reason: str) -> None:
+    now = dt.datetime.utcnow().isoformat(timespec="seconds") + "Z"
+    empty_criteria = {
+        "min_upward_revisions": MIN_UPWARD_REVISIONS,
+        "min_consecutive_dividend_years": MIN_CONSECUTIVE_DIVIDEND_YEARS,
+        "recent_years_window": RECENT_YEARS,
+        "rule": "upward_revisions>=min AND dividend_streak>=min AND op_margin trending up",
+    }
+    SCREENED_PATH.write_text(
+        json.dumps(
+            {
+                "generated_at": now,
+                "criteria": empty_criteria,
+                "error": reason,
+                "count": 0,
+                "items": [],
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
+    ALL_EVAL_PATH.write_text(
+        json.dumps(
+            {
+                "generated_at": now,
+                "error": reason,
+                "count": 0,
+                "items": [],
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
+    (DATA / "last_updated.json").write_text(
+        json.dumps(
+            {
+                "generated_at": now,
+                "error": reason,
+                "schedule_count": 0,
+                "evaluated_count": 0,
+                "screened_count": 0,
+                "schedule_primary_source": None,
+                "schedule_sources_results": {},
+                "fundamentals_source": "irbank.net",
+                "fundamentals_count": 0,
+                "fundamentals_failure_count": 0,
+                "fundamentals_connectivity_error": None,
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
 
 
 if __name__ == "__main__":

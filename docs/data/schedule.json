@@ -1,6 +1,7 @@
 {
   "fetched_at": null,
-  "sources_used": [],
+  "primary_source": null,
+  "sources_results": {},
   "count": 0,
   "items": []
 }

@@ -1,8 +1,12 @@
 {
-  "generated_at": "2026-04-15T01:46:12Z",
+  "generated_at": "2026-04-16T00:03:55Z",
   "schedule_count": 0,
   "evaluated_count": 0,
   "screened_count": 0,
-  "schedule_sources": [],
-  "fundamentals_source": "irbank.net"
+  "schedule_primary_source": null,
+  "schedule_sources_results": {},
+  "fundamentals_source": "irbank.net",
+  "fundamentals_count": 0,
+  "fundamentals_failure_count": 0,
+  "fundamentals_connectivity_error": null
 }
