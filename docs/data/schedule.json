@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-04-16T00:05:32Z",
+  "fetched_at": "2026-04-16T10:31:53Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
-      "items": 3264,
+      "items": 3266,
       "error": null
     },
     "nikkeiyosoku": {
@@ -11,7 +11,7 @@
       "error": null
     },
     "kabutan": {
-      "items": 4,
+      "items": 1,
       "error": null
     },
     "minkabu": {
@@ -2976,7 +2976,7 @@
       "name": "ゲンダイエージェンシー",
       "announcement_date": "2026-04-17",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0410.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "3462",
@@ -2997,7 +2997,7 @@
       "name": "アジュバンホールディングス",
       "announcement_date": "2026-04-17",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0410.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "3492",
