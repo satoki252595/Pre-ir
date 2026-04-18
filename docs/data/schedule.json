@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-17T22:10:50Z",
+  "fetched_at": "2026-04-18T10:17:15Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
@@ -11,7 +11,7 @@
       "error": null
     },
     "kabutan": {
-      "items": 1,
+      "items": 4,
       "error": null
     },
     "minkabu": {
