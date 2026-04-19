@@ -1,28 +1,8 @@
 {
-  "fetched_at": "2026-04-18T22:06:37Z",
+  "fetched_at": "2026-04-19T10:16:55Z",
   "count": 0,
   "failure_count": 400,
   "failures": [
-    {
-      "code": "3226",
-      "error": "GET failed for https://irbank.net/3226/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "3295",
-      "error": "GET failed for https://irbank.net/3295/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "3481",
-      "error": "GET failed for https://irbank.net/3481/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "8984",
-      "error": "GET failed for https://irbank.net/8984/forecast: HTTP 404",
-      "status": 404
-    },
     {
       "code": "2411",
       "error": "GET failed for https://irbank.net/2411/forecast: HTTP 404",
@@ -251,6 +231,26 @@
     {
       "code": "6954",
       "error": "GET failed for https://irbank.net/6954/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "6995",
+      "error": "GET failed for https://irbank.net/6995/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "6999",
+      "error": "GET failed for https://irbank.net/6999/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "7102",
+      "error": "GET failed for https://irbank.net/7102/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "7175",
+      "error": "GET failed for https://irbank.net/7175/forecast: HTTP 404",
       "status": 404
     }
   ],
