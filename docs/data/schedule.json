@@ -1,17 +1,17 @@
 {
-  "fetched_at": "2026-04-19T22:06:37Z",
+  "fetched_at": "2026-04-20T10:37:12Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
-      "items": 3286,
+      "items": 3288,
       "error": null
     },
     "nikkeiyosoku": {
-      "items": 691,
+      "items": 696,
       "error": null
     },
     "kabutan": {
-      "items": 4,
+      "items": 5,
       "error": null
     },
     "minkabu": {
@@ -21,7 +21,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 499,
+      "items": 500,
       "error": null
     },
     "matsui": {
@@ -3018,14 +3018,14 @@
       "name": "オービック",
       "announcement_date": "2026-04-21",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0417.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "4733",
       "name": "オービックビジネスコンサルタント",
       "announcement_date": "2026-04-21",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0417.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "8953",
