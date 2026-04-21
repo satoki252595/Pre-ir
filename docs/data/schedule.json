@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-20T22:13:13Z",
+  "fetched_at": "2026-04-21T10:33:10Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
@@ -11,7 +11,7 @@
       "error": null
     },
     "kabutan": {
-      "items": 5,
+      "items": 1,
       "error": null
     },
     "minkabu": {
@@ -21,7 +21,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 500,
+      "items": 499,
       "error": null
     },
     "matsui": {
@@ -3018,14 +3018,14 @@
       "name": "オービック",
       "announcement_date": "2026-04-21",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0417.xlsx"
     },
     {
       "code": "4733",
       "name": "オービックビジネスコンサルタント",
       "announcement_date": "2026-04-21",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0417.xlsx"
     },
     {
       "code": "8953",
@@ -3053,14 +3053,14 @@
       "name": "オービーシステム",
       "announcement_date": "2026-04-22",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0417.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "6146",
       "name": "ディスコ",
       "announcement_date": "2026-04-22",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0417.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "6653",
