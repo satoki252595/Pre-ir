@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-22T10:32:39Z",
+  "fetched_at": "2026-04-22T22:14:03Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
@@ -21,7 +21,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 500,
+      "items": 501,
       "error": null
     },
     "matsui": {
