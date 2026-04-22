@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-04-21T22:13:10Z",
+  "fetched_at": "2026-04-22T10:32:39Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
-      "items": 3288,
+      "items": 3289,
       "error": null
     },
     "nikkeiyosoku": {
@@ -11,7 +11,7 @@
       "error": null
     },
     "kabutan": {
-      "items": 6,
+      "items": 1,
       "error": null
     },
     "minkabu": {
@@ -21,7 +21,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 499,
+      "items": 500,
       "error": null
     },
     "matsui": {
@@ -3053,14 +3053,14 @@
       "name": "オービーシステム",
       "announcement_date": "2026-04-22",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0417.xlsx"
     },
     {
       "code": "6146",
       "name": "ディスコ",
       "announcement_date": "2026-04-22",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0417.xlsx"
     },
     {
       "code": "6653",
@@ -3095,7 +3095,7 @@
       "name": "石塚硝子",
       "announcement_date": "2026-04-23",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0417.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "6858",
@@ -3123,14 +3123,14 @@
       "name": "未来工業",
       "announcement_date": "2026-04-23",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0417.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "9795",
       "name": "ステップ",
       "announcement_date": "2026-04-23",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0417.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "1972",
