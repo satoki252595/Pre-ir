@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-23T11:51:40Z",
+  "generated_at": "2026-04-23T23:06:15Z",
   "schedule_count": 3286,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -14,7 +14,7 @@
       "error": null
     },
     "kabutan": {
-      "items": 3,
+      "items": 2,
       "error": null
     },
     "minkabu": {
@@ -28,7 +28,7 @@
       "error": null
     },
     "matsui": {
-      "items": 7,
+      "items": 20,
       "error": null
     }
   },
