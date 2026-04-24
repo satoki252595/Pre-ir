@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-24T11:41:26Z",
+  "generated_at": "2026-04-24T23:11:07Z",
   "schedule_count": 3313,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -14,7 +14,7 @@
       "error": null
     },
     "kabutan": {
-      "items": 5,
+      "items": 1,
       "error": null
     },
     "minkabu": {
@@ -28,8 +28,10 @@
       "error": null
     },
     "matsui": {
-      "items": 20,
-      "error": null
+      "items": 0,
+      "error": "matsui: no rows parsed",
+      "http_status": null,
+      "body_snippet": ""
     }
   },
   "fundamentals_source": "irbank.net",
