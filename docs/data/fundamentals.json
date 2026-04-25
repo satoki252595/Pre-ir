@@ -1,38 +1,8 @@
 {
-  "fetched_at": "2026-04-24T22:12:50Z",
+  "fetched_at": "2026-04-25T10:18:13Z",
   "count": 0,
   "failure_count": 400,
   "failures": [
-    {
-      "code": "3466",
-      "error": "GET failed for https://irbank.net/3466/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "5576",
-      "error": "GET failed for https://irbank.net/5576/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "6146",
-      "error": "GET failed for https://irbank.net/6146/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "6653",
-      "error": "GET failed for https://irbank.net/6653/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "8060",
-      "error": "GET failed for https://irbank.net/8060/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "8961",
-      "error": "GET failed for https://irbank.net/8961/forecast: HTTP 404",
-      "status": 404
-    },
     {
       "code": "2268",
       "error": "GET failed for https://irbank.net/2268/forecast: HTTP 404",
@@ -251,6 +221,36 @@
     {
       "code": "1718",
       "error": "GET failed for https://irbank.net/1718/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "1944",
+      "error": "GET failed for https://irbank.net/1944/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "2211",
+      "error": "GET failed for https://irbank.net/2211/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "2327",
+      "error": "GET failed for https://irbank.net/2327/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "2689",
+      "error": "GET failed for https://irbank.net/2689/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "2760",
+      "error": "GET failed for https://irbank.net/2760/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "3003",
+      "error": "GET failed for https://irbank.net/3003/forecast: HTTP 404",
       "status": 404
     }
   ],
