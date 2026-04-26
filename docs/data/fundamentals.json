@@ -1,43 +1,8 @@
 {
-  "fetched_at": "2026-04-25T22:07:43Z",
+  "fetched_at": "2026-04-26T10:19:12Z",
   "count": 0,
   "failure_count": 400,
   "failures": [
-    {
-      "code": "2268",
-      "error": "GET failed for https://irbank.net/2268/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "5204",
-      "error": "GET failed for https://irbank.net/5204/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "6858",
-      "error": "GET failed for https://irbank.net/6858/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "7309",
-      "error": "GET failed for https://irbank.net/7309/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "7751",
-      "error": "GET failed for https://irbank.net/7751/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "7931",
-      "error": "GET failed for https://irbank.net/7931/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "9795",
-      "error": "GET failed for https://irbank.net/9795/forecast: HTTP 404",
-      "status": 404
-    },
     {
       "code": "1972",
       "error": "GET failed for https://irbank.net/1972/forecast: HTTP 404",
@@ -251,6 +216,41 @@
     {
       "code": "3003",
       "error": "GET failed for https://irbank.net/3003/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "3635",
+      "error": "GET failed for https://irbank.net/3635/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "3636",
+      "error": "GET failed for https://irbank.net/3636/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "3778",
+      "error": "GET failed for https://irbank.net/3778/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "4498",
+      "error": "GET failed for https://irbank.net/4498/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "4503",
+      "error": "GET failed for https://irbank.net/4503/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "4568",
+      "error": "GET failed for https://irbank.net/4568/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "5410",
+      "error": "GET failed for https://irbank.net/5410/forecast: HTTP 404",
       "status": 404
     }
   ],
