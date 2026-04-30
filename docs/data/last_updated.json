@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-29T23:17:09Z",
-  "schedule_count": 3316,
+  "generated_at": "2026-04-30T11:42:27Z",
+  "schedule_count": 3313,
   "evaluated_count": 0,
   "screened_count": 0,
   "schedule_primary_source": "jpx",
   "schedule_sources_results": {
     "jpx": {
-      "items": 3405,
+      "items": 3342,
       "error": null
     },
     "nikkeiyosoku": {
@@ -14,7 +14,7 @@
       "error": null
     },
     "kabutan": {
-      "items": 15,
+      "items": 6,
       "error": null
     },
     "minkabu": {
@@ -24,7 +24,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 495,
+      "items": 496,
       "error": null
     },
     "matsui": {
