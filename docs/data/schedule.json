@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-04-30T10:37:30Z",
+  "fetched_at": "2026-04-30T22:17:07Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
@@ -7,11 +7,11 @@
       "error": null
     },
     "nikkeiyosoku": {
-      "items": 702,
+      "items": 2546,
       "error": null
     },
     "kabutan": {
-      "items": 6,
+      "items": 14,
       "error": null
     },
     "minkabu": {
