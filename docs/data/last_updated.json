@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-01T23:13:42Z",
+  "generated_at": "2026-05-02T11:30:30Z",
   "schedule_count": 3109,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -14,7 +14,7 @@
       "error": null
     },
     "kabutan": {
-      "items": 2,
+      "items": 3,
       "error": null
     },
     "minkabu": {
