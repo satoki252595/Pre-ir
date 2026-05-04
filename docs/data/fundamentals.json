@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-03T10:23:38Z",
+  "fetched_at": "2026-05-03T22:11:33Z",
   "count": 0,
   "failure_count": 400,
   "failures": [
@@ -195,8 +195,8 @@
     },
     {
       "code": "1898",
-      "error": "GET failed for https://irbank.net/1898/forecast: HTTP 404",
-      "status": 404
+      "error": "GET failed for https://irbank.net/1898/forecast: HTTP 504",
+      "status": 504
     },
     {
       "code": "1911",
