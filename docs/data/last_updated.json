@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-05-10T23:19:54Z",
-  "schedule_count": 3110,
+  "generated_at": "2026-05-11T12:10:29Z",
+  "schedule_count": 3108,
   "evaluated_count": 0,
   "screened_count": 0,
   "schedule_primary_source": "jpx",
   "schedule_sources_results": {
     "jpx": {
-      "items": 3250,
+      "items": 3373,
       "error": null
     },
     "nikkeiyosoku": {
-      "items": 2581,
+      "items": 2584,
       "error": null
     },
     "kabutan": {
-      "items": 13,
+      "items": 5,
       "error": null
     },
     "minkabu": {
