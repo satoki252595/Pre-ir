@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T11:52:29Z",
+  "generated_at": "2026-05-12T23:24:37Z",
   "schedule_count": 3111,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -14,7 +14,7 @@
       "error": null
     },
     "kabutan": {
-      "items": 5,
+      "items": 3,
       "error": null
     },
     "minkabu": {
@@ -24,7 +24,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 490,
+      "items": 486,
       "error": null
     },
     "matsui": {
