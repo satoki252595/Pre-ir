@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-05-14T10:50:26Z",
+  "fetched_at": "2026-05-14T22:21:16Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
@@ -11,7 +11,7 @@
       "error": null
     },
     "kabutan": {
-      "items": 6,
+      "items": 1,
       "error": null
     },
     "minkabu": {
@@ -21,7 +21,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 471,
+      "items": 473,
       "error": null
     },
     "matsui": {
