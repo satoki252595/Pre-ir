@@ -1,21 +1,23 @@
 {
-  "generated_at": "2026-05-18T23:04:12Z",
-  "schedule_count": 3118,
+  "generated_at": "2026-05-19T11:46:21Z",
+  "schedule_count": 3117,
   "evaluated_count": 0,
   "screened_count": 0,
   "schedule_primary_source": "jpx",
   "schedule_sources_results": {
     "jpx": {
-      "items": 3121,
+      "items": 3131,
       "error": null
     },
     "nikkeiyosoku": {
-      "items": 2643,
+      "items": 2644,
       "error": null
     },
     "kabutan": {
-      "items": 3,
-      "error": null
+      "items": 0,
+      "error": "kabutan: no rows parsed",
+      "http_status": null,
+      "body_snippet": ""
     },
     "minkabu": {
       "items": 0,
@@ -24,7 +26,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 441,
+      "items": 447,
       "error": null
     },
     "matsui": {
@@ -34,6 +36,6 @@
   },
   "fundamentals_source": "irbank.net",
   "fundamentals_count": 0,
-  "fundamentals_failure_count": 257,
+  "fundamentals_failure_count": 256,
   "fundamentals_connectivity_error": null
 }
