@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-05-19T22:24:44Z",
+  "fetched_at": "2026-05-20T11:04:23Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
-      "items": 3131,
+      "items": 3119,
       "error": null
     },
     "nikkeiyosoku": {
@@ -11,10 +11,8 @@
       "error": null
     },
     "kabutan": {
-      "items": 0,
-      "error": "kabutan: no rows parsed",
-      "http_status": null,
-      "body_snippet": ""
+      "items": 3,
+      "error": null
     },
     "minkabu": {
       "items": 0,
@@ -23,7 +21,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 444,
+      "items": 445,
       "error": null
     },
     "matsui": {
@@ -20100,112 +20098,112 @@
       "name": "技研ホールディングス",
       "announcement_date": "2026-05-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "2340",
       "name": "極楽湯ホールディングス",
       "announcement_date": "2026-05-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "2673",
       "name": "夢みつけ隊",
       "announcement_date": "2026-05-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "3753",
       "name": "フライトソリューションズ",
       "announcement_date": "2026-05-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "3858",
       "name": "ユビキタスＡＩ",
       "announcement_date": "2026-05-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "4720",
       "name": "城南進学研究社",
       "announcement_date": "2026-05-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "5852",
       "name": "アーレスティ",
       "announcement_date": "2026-05-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "6343",
       "name": "フリージア・マクロス",
       "announcement_date": "2026-05-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "6743",
       "name": "大同信号",
       "announcement_date": "2026-05-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "7111",
       "name": "ＩＮＥＳＴ",
       "announcement_date": "2026-05-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "8421",
       "name": "信金中央金庫",
       "announcement_date": "2026-05-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "8630",
       "name": "ＳＯＭＰＯホールディングス",
       "announcement_date": "2026-05-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "8725",
       "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス",
       "announcement_date": "2026-05-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "8766",
       "name": "東京海上ホールディングス",
       "announcement_date": "2026-05-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "8958",
       "name": "グローバル・ワン不動産投資法人",
       "announcement_date": "2026-05-21",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "8986",
       "name": "大和証券リビング投資法人",
       "announcement_date": "2026-05-21",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "2590",
