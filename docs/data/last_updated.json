@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T11:49:44Z",
+  "generated_at": "2026-05-20T23:14:39Z",
   "schedule_count": 3117,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -14,8 +14,10 @@
       "error": null
     },
     "kabutan": {
-      "items": 3,
-      "error": null
+      "items": 0,
+      "error": "kabutan: no rows parsed",
+      "http_status": null,
+      "body_snippet": ""
     },
     "minkabu": {
       "items": 0,
@@ -24,11 +26,11 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 445,
+      "items": 432,
       "error": null
     },
     "matsui": {
-      "items": 14,
+      "items": 2,
       "error": null
     }
   },
