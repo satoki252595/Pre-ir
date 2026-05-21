@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-05-20T22:28:32Z",
+  "fetched_at": "2026-05-21T11:07:43Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
-      "items": 3119,
+      "items": 3117,
       "error": null
     },
     "nikkeiyosoku": {
@@ -23,7 +23,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 432,
+      "items": 436,
       "error": null
     },
     "matsui": {
@@ -20198,14 +20198,14 @@
       "name": "グローバル・ワン不動産投資法人",
       "announcement_date": "2026-05-21",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "8986",
       "name": "大和証券リビング投資法人",
       "announcement_date": "2026-05-21",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan03_0501.xlsx"
     },
     {
       "code": "2590",
