@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T23:11:08Z",
+  "generated_at": "2026-05-22T11:47:40Z",
   "schedule_count": 3117,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -14,8 +14,10 @@
       "error": null
     },
     "kabutan": {
-      "items": 1,
-      "error": null
+      "items": 0,
+      "error": "kabutan: no rows parsed",
+      "http_status": null,
+      "body_snippet": ""
     },
     "minkabu": {
       "items": 0,
@@ -24,7 +26,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 436,
+      "items": 440,
       "error": null
     },
     "matsui": {
@@ -36,6 +38,6 @@
   },
   "fundamentals_source": "irbank.net",
   "fundamentals_count": 0,
-  "fundamentals_failure_count": 254,
+  "fundamentals_failure_count": 251,
   "fundamentals_connectivity_error": null
 }
