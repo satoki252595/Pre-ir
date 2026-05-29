@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T11:08:39Z",
+  "generated_at": "2026-05-29T22:30:18Z",
   "schedule_count": 3117,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -26,12 +26,14 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 457,
+      "items": 452,
       "error": null
     },
     "matsui": {
-      "items": 5,
-      "error": null
+      "items": 0,
+      "error": "matsui: no rows parsed",
+      "http_status": null,
+      "body_snippet": ""
     }
   },
   "fundamentals_source": "irbank.net",
