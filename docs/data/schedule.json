@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-01T12:01:38Z",
+  "fetched_at": "2026-06-01T22:43:03Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
@@ -23,12 +23,14 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 457,
+      "items": 456,
       "error": null
     },
     "matsui": {
-      "items": 2,
-      "error": null
+      "items": 0,
+      "error": "matsui failed: GET failed for https://finance.matsui.co.jp/find-by-schedule/index: HTTP 403 (status=403)",
+      "http_status": null,
+      "body_snippet": ""
     }
   },
   "count": 3117,
