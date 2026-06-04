@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T22:41:40Z",
+  "generated_at": "2026-06-04T11:07:33Z",
   "schedule_count": 3117,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -26,7 +26,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 464,
+      "items": 461,
       "error": null
     },
     "matsui": {
@@ -36,7 +36,7 @@
   },
   "fundamentals_source": "irbank.net",
   "fundamentals_count": 0,
-  "fundamentals_failure_count": 228,
+  "fundamentals_failure_count": 226,
   "fundamentals_connectivity_error": {
     "source": "irbank.net",
     "status": 403,
