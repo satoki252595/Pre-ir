@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T11:07:33Z",
+  "generated_at": "2026-06-04T22:28:23Z",
   "schedule_count": 3117,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -30,7 +30,7 @@
       "error": null
     },
     "matsui": {
-      "items": 5,
+      "items": 12,
       "error": null
     }
   },
