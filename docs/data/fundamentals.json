@@ -1,38 +1,8 @@
 {
-  "fetched_at": "2026-06-10T22:34:11Z",
+  "fetched_at": "2026-06-11T11:33:59Z",
   "count": 0,
-  "failure_count": 363,
+  "failure_count": 357,
   "failures": [
-    {
-      "code": "2301",
-      "error": "GET failed for https://irbank.net/2301/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "3071",
-      "error": "GET failed for https://irbank.net/3071/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "3246",
-      "error": "GET failed for https://irbank.net/3246/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "4238",
-      "error": "GET failed for https://irbank.net/4238/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "4287",
-      "error": "GET failed for https://irbank.net/4287/forecast: HTTP 404",
-      "status": 404
-    },
-    {
-      "code": "7856",
-      "error": "GET failed for https://irbank.net/7856/forecast: HTTP 404",
-      "status": 404
-    },
     {
       "code": "1433",
       "error": "GET failed for https://irbank.net/1433/forecast: HTTP 404",
@@ -251,6 +221,36 @@
     {
       "code": "4422",
       "error": "GET failed for https://irbank.net/4422/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "5134",
+      "error": "GET failed for https://irbank.net/5134/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "6184",
+      "error": "GET failed for https://irbank.net/6184/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "6309",
+      "error": "GET failed for https://irbank.net/6309/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "6535",
+      "error": "GET failed for https://irbank.net/6535/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "6619",
+      "error": "GET failed for https://irbank.net/6619/forecast: HTTP 404",
+      "status": 404
+    },
+    {
+      "code": "7095",
+      "error": "GET failed for https://irbank.net/7095/forecast: HTTP 404",
       "status": 404
     }
   ],
