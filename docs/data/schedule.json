@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-06-11T22:32:18Z",
+  "fetched_at": "2026-06-12T11:19:40Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
@@ -11,8 +11,10 @@
       "error": null
     },
     "kabutan": {
-      "items": 10,
-      "error": null
+      "items": 0,
+      "error": "kabutan: no rows parsed",
+      "http_status": null,
+      "body_snippet": ""
     },
     "minkabu": {
       "items": 0,
