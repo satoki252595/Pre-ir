@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T23:53:43Z",
+  "generated_at": "2026-06-18T11:25:28Z",
   "schedule_count": 603,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -38,6 +38,10 @@
   },
   "fundamentals_source": "irbank.net",
   "fundamentals_count": 0,
-  "fundamentals_failure_count": 400,
-  "fundamentals_connectivity_error": null
+  "fundamentals_failure_count": 395,
+  "fundamentals_connectivity_error": {
+    "source": "irbank.net",
+    "status": 403,
+    "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR: The request could not be satisfied</TITLE>\n</HEAD><BODY>\n<H1>403 ERROR</H1>\n<H2>The request could "
+  }
 }
