@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-02T22:21:04Z",
-  "schedule_count": 618,
+  "generated_at": "2026-07-03T13:17:31Z",
+  "schedule_count": 3116,
   "evaluated_count": 0,
   "screened_count": 0,
   "schedule_primary_source": "jpx",
   "schedule_sources_results": {
     "jpx": {
-      "items": 618,
+      "items": 3116,
       "error": null
     },
     "nikkeiyosoku": {
@@ -14,10 +14,8 @@
       "error": null
     },
     "kabutan": {
-      "items": 0,
-      "error": "kabutan: no rows parsed",
-      "http_status": null,
-      "body_snippet": ""
+      "items": 1,
+      "error": null
     },
     "minkabu": {
       "items": 0,
@@ -36,10 +34,6 @@
   },
   "fundamentals_source": "irbank.net",
   "fundamentals_count": 0,
-  "fundamentals_failure_count": 386,
-  "fundamentals_connectivity_error": {
-    "source": "irbank.net",
-    "status": 403,
-    "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR: The request could not be satisfied</TITLE>\n</HEAD><BODY>\n<H1>403 ERROR</H1>\n<H2>The request could "
-  }
+  "fundamentals_failure_count": 400,
+  "fundamentals_connectivity_error": null
 }
