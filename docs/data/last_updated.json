@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T22:46:36Z",
+  "generated_at": "2026-07-11T12:01:01Z",
   "schedule_count": 3222,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -14,10 +14,8 @@
       "error": null
     },
     "kabutan": {
-      "items": 0,
-      "error": "kabutan: no rows parsed",
-      "http_status": null,
-      "body_snippet": ""
+      "items": 15,
+      "error": null
     },
     "minkabu": {
       "items": 0,
@@ -39,9 +37,5 @@
   "fundamentals_source": "irbank.net",
   "fundamentals_count": 0,
   "fundamentals_failure_count": 400,
-  "fundamentals_connectivity_error": {
-    "source": "irbank.net",
-    "status": 403,
-    "body": "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\" \"http://www.w3.org/TR/html4/loose.dtd\">\n<HTML><HEAD><META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html; charset=iso-8859-1\">\n<TITLE>ERROR: The request could not be satisfied</TITLE>\n</HEAD><BODY>\n<H1>403 ERROR</H1>\n<H2>The request could "
-  }
+  "fundamentals_connectivity_error": null
 }
