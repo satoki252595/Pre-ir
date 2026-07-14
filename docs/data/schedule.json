@@ -1,18 +1,20 @@
 {
-  "fetched_at": "2026-07-13T22:41:53Z",
+  "fetched_at": "2026-07-14T11:24:34Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
-      "items": 3222,
+      "items": 3223,
       "error": null
     },
     "nikkeiyosoku": {
-      "items": 926,
+      "items": 927,
       "error": null
     },
     "kabutan": {
-      "items": 8,
-      "error": null
+      "items": 0,
+      "error": "kabutan: no rows parsed",
+      "http_status": null,
+      "body_snippet": ""
     },
     "minkabu": {
       "items": 0,
@@ -21,7 +23,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 467,
+      "items": 466,
       "error": null
     },
     "matsui": {
@@ -2500,7 +2502,7 @@
       "name": "スーパーツール",
       "announcement_date": "2026-07-15",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0710.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "6044",
