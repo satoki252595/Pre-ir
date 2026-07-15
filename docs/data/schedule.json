@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-07-14T22:43:58Z",
+  "fetched_at": "2026-07-15T11:27:27Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
@@ -7,7 +7,7 @@
       "error": null
     },
     "nikkeiyosoku": {
-      "items": 927,
+      "items": 931,
       "error": null
     },
     "kabutan": {
@@ -23,7 +23,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 484,
+      "items": 485,
       "error": null
     },
     "matsui": {
@@ -31,7 +31,7 @@
       "error": null
     }
   },
-  "count": 3222,
+  "count": 3223,
   "items": [
     {
       "code": "3544",
@@ -2502,7 +2502,7 @@
       "name": "スーパーツール",
       "announcement_date": "2026-07-15",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0710.xlsx"
     },
     {
       "code": "6044",
@@ -2853,6 +2853,13 @@
       "announcement_date": "2026-07-16",
       "source": "jpx",
       "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan05_0703.xlsx"
+    },
+    {
+      "code": "5990",
+      "name": "スーパーツール",
+      "announcement_date": "2026-07-16",
+      "source": "jpx",
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "8966",
