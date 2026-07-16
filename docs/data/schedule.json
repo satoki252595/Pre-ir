@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-07-15T22:45:17Z",
+  "fetched_at": "2026-07-16T11:37:43Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
-      "items": 3223,
+      "items": 3226,
       "error": null
     },
     "nikkeiyosoku": {
-      "items": 931,
+      "items": 935,
       "error": null
     },
     "kabutan": {
@@ -23,7 +23,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 501,
+      "items": 499,
       "error": null
     },
     "matsui": {
@@ -31,7 +31,7 @@
       "error": null
     }
   },
-  "count": 3223,
+  "count": 3222,
   "items": [
     {
       "code": "3544",
@@ -2855,13 +2855,6 @@
       "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan05_0703.xlsx"
     },
     {
-      "code": "5990",
-      "name": "スーパーツール",
-      "announcement_date": "2026-07-16",
-      "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
-    },
-    {
       "code": "8966",
       "name": "平和不動産リート投資法人",
       "announcement_date": "2026-07-16",
@@ -2880,7 +2873,7 @@
       "name": "ゲンダイエージェンシー",
       "announcement_date": "2026-07-17",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0710.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "2979",
@@ -2894,21 +2887,21 @@
       "name": "アジュバンホールディングス",
       "announcement_date": "2026-07-17",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0710.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "5423",
       "name": "東京製鐵",
       "announcement_date": "2026-07-17",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0710.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "5933",
       "name": "アルインコ",
       "announcement_date": "2026-07-17",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0710.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "8976",
