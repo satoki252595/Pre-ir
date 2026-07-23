@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-07-22T22:48:35Z",
+  "fetched_at": "2026-07-23T11:49:30Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
-      "items": 3256,
+      "items": 3262,
       "error": null
     },
     "nikkeiyosoku": {
@@ -23,7 +23,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 500,
+      "items": 498,
       "error": null
     },
     "matsui": {
@@ -31,7 +31,7 @@
       "error": null
     }
   },
-  "count": 3250,
+  "count": 3251,
   "items": [
     {
       "code": "3544",
@@ -2971,40 +2971,47 @@
       "name": "ディスコ",
       "announcement_date": "2026-07-23",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
     },
     {
       "code": "6999",
       "name": "ＫＯＡ",
       "announcement_date": "2026-07-23",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
     },
     {
       "code": "7931",
       "name": "未来工業",
       "announcement_date": "2026-07-23",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
     },
     {
       "code": "7970",
       "name": "信越ポリマー",
       "announcement_date": "2026-07-23",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
     },
     {
       "code": "9478",
       "name": "ＳＥホールディングス・アンド・インキュベーションズ",
       "announcement_date": "2026-07-23",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
     },
     {
       "code": "9733",
       "name": "ナガセ",
       "announcement_date": "2026-07-23",
+      "source": "jpx",
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
+    },
+    {
+      "code": "1723",
+      "name": "日本電技",
+      "announcement_date": "2026-07-24",
       "source": "jpx",
       "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
@@ -3013,14 +3020,14 @@
       "name": "中外炉工業",
       "announcement_date": "2026-07-24",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "2804",
       "name": "ブルドックソース",
       "announcement_date": "2026-07-24",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "3912",
@@ -3034,7 +3041,7 @@
       "name": "信越化学工業",
       "announcement_date": "2026-07-24",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "4519",
@@ -3048,21 +3055,21 @@
       "name": "日本高純度化学",
       "announcement_date": "2026-07-24",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "5659",
       "name": "日本精線",
       "announcement_date": "2026-07-24",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "6629",
       "name": "テクノホライゾン",
       "announcement_date": "2026-07-24",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "6653",
@@ -3083,7 +3090,7 @@
       "name": "今村証券",
       "announcement_date": "2026-07-24",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "7422",
@@ -3104,28 +3111,28 @@
       "name": "ジャフコ　グループ",
       "announcement_date": "2026-07-24",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "9029",
       "name": "ヒガシホールディングス",
       "announcement_date": "2026-07-24",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "9353",
       "name": "櫻島埠頭",
       "announcement_date": "2026-07-24",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "9701",
       "name": "東京會舘",
       "announcement_date": "2026-07-24",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0717.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "1718",
