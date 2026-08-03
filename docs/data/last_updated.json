@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-03T12:54:29Z",
+  "generated_at": "2026-08-03T22:46:55Z",
   "schedule_count": 3285,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -26,7 +26,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 496,
+      "items": 495,
       "error": null
     },
     "matsui": {
