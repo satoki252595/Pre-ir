@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-06T12:01:01Z",
+  "fetched_at": "2026-08-07T01:27:10Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
@@ -7,7 +7,7 @@
       "error": null
     },
     "nikkeiyosoku": {
-      "items": 2278,
+      "items": 2290,
       "error": null
     },
     "kabutan": {
@@ -23,7 +23,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 495,
+      "items": 493,
       "error": null
     },
     "matsui": {
