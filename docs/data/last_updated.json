@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-11T22:29:05Z",
+  "generated_at": "2026-08-12T10:58:36Z",
   "schedule_count": 3106,
   "evaluated_count": 0,
   "screened_count": 0,
   "schedule_primary_source": "jpx",
   "schedule_sources_results": {
     "jpx": {
-      "items": 3231,
+      "items": 3213,
       "error": null
     },
     "nikkeiyosoku": {
