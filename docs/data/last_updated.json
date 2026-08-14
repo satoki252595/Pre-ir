@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-13T22:28:16Z",
-  "schedule_count": 3106,
+  "generated_at": "2026-08-14T10:56:06Z",
+  "schedule_count": 3105,
   "evaluated_count": 0,
   "screened_count": 0,
   "schedule_primary_source": "jpx",
   "schedule_sources_results": {
     "jpx": {
-      "items": 3288,
+      "items": 3106,
       "error": null
     },
     "nikkeiyosoku": {
-      "items": 2320,
+      "items": 2323,
       "error": null
     },
     "kabutan": {
