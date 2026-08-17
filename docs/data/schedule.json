@@ -1,13 +1,13 @@
 {
-  "fetched_at": "2026-08-16T22:07:43Z",
+  "fetched_at": "2026-08-17T10:28:50Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
-      "items": 3106,
+      "items": 3105,
       "error": null
     },
     "nikkeiyosoku": {
-      "items": 2323,
+      "items": 2334,
       "error": null
     },
     "kabutan": {
@@ -23,7 +23,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 459,
+      "items": 463,
       "error": null
     },
     "matsui": {
@@ -20037,7 +20037,7 @@
       "name": "サニックスホールディングス",
       "announcement_date": "2026-08-17",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan06_0807.xlsx"
     },
     {
       "code": "8951",
