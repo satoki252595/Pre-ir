@@ -1,7 +1,7 @@
 {
-  "fetched_at": "2026-08-28T21:04:51Z",
+  "fetched_at": "2026-08-29T03:24:56Z",
   "count": 0,
-  "failure_count": 235,
+  "failure_count": 234,
   "connectivity_error": {
     "source": "irbank.net",
     "status": 403,
