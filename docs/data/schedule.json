@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-08-30T14:40:31Z",
+  "fetched_at": "2026-08-30T23:58:34Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
@@ -27,10 +27,8 @@
       "error": null
     },
     "matsui": {
-      "items": 0,
-      "error": "matsui: no rows parsed",
-      "http_status": null,
-      "body_snippet": ""
+      "items": 5,
+      "error": null
     }
   },
   "count": 3108,
