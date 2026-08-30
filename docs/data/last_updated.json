@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T23:40:33Z",
+  "generated_at": "2026-08-30T14:40:38Z",
   "schedule_count": 3108,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -38,7 +38,7 @@
   },
   "fundamentals_source": "irbank.net",
   "fundamentals_count": 0,
-  "fundamentals_failure_count": 234,
+  "fundamentals_failure_count": 233,
   "fundamentals_connectivity_error": {
     "source": "irbank.net",
     "status": 403,
