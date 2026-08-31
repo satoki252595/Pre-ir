@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T23:58:40Z",
+  "generated_at": "2026-08-31T17:23:36Z",
   "schedule_count": 3108,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -10,7 +10,7 @@
       "error": null
     },
     "nikkeiyosoku": {
-      "items": 2336,
+      "items": 190,
       "error": null
     },
     "kabutan": {
@@ -30,13 +30,13 @@
       "error": null
     },
     "matsui": {
-      "items": 5,
+      "items": 3,
       "error": null
     }
   },
   "fundamentals_source": "irbank.net",
   "fundamentals_count": 0,
-  "fundamentals_failure_count": 233,
+  "fundamentals_failure_count": 232,
   "fundamentals_connectivity_error": {
     "source": "irbank.net",
     "status": 403,
