@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T14:03:29Z",
+  "generated_at": "2026-09-13T23:42:57Z",
   "schedule_count": 616,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -10,7 +10,7 @@
       "error": null
     },
     "nikkeiyosoku": {
-      "items": 228,
+      "items": 229,
       "error": null
     },
     "kabutan": {
@@ -30,10 +30,8 @@
       "error": null
     },
     "matsui": {
-      "items": 0,
-      "error": "matsui: no rows parsed",
-      "http_status": null,
-      "body_snippet": ""
+      "items": 20,
+      "error": null
     }
   },
   "fundamentals_source": "irbank.net",
