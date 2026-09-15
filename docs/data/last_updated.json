@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T16:08:55Z",
+  "generated_at": "2026-09-15T00:02:55Z",
   "schedule_count": 616,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -10,7 +10,7 @@
       "error": null
     },
     "nikkeiyosoku": {
-      "items": 229,
+      "items": 231,
       "error": null
     },
     "kabutan": {
@@ -36,7 +36,7 @@
   },
   "fundamentals_source": "irbank.net",
   "fundamentals_count": 0,
-  "fundamentals_failure_count": 362,
+  "fundamentals_failure_count": 400,
   "fundamentals_connectivity_error": {
     "source": "irbank.net",
     "status": 403,
