@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-17T23:46:51Z",
-  "schedule_count": 616,
+  "generated_at": "2026-09-18T14:05:38Z",
+  "schedule_count": 630,
   "evaluated_count": 0,
   "screened_count": 0,
   "schedule_primary_source": "jpx",
   "schedule_sources_results": {
     "jpx": {
-      "items": 616,
+      "items": 630,
       "error": null
     },
     "nikkeiyosoku": {
@@ -26,17 +26,17 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 468,
+      "items": 467,
       "error": null
     },
     "matsui": {
-      "items": 3,
+      "items": 2,
       "error": null
     }
   },
   "fundamentals_source": "irbank.net",
   "fundamentals_count": 0,
-  "fundamentals_failure_count": 393,
+  "fundamentals_failure_count": 400,
   "fundamentals_connectivity_error": {
     "source": "irbank.net",
     "status": 403,
