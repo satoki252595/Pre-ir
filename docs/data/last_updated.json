@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-05T00:16:28Z",
+  "generated_at": "2026-10-05T19:03:06Z",
   "schedule_count": 3103,
   "evaluated_count": 0,
   "screened_count": 0,
   "schedule_primary_source": "jpx",
   "schedule_sources_results": {
     "jpx": {
-      "items": 3104,
+      "items": 3103,
       "error": null
     },
     "nikkeiyosoku": {
@@ -30,7 +30,7 @@
       "error": null
     },
     "matsui": {
-      "items": 14,
+      "items": 9,
       "error": null
     }
   },

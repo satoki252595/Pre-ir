@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-05T00:16:21Z",
+  "fetched_at": "2026-10-05T19:02:59Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
-      "items": 3104,
+      "items": 3103,
       "error": null
     },
     "nikkeiyosoku": {
@@ -27,7 +27,7 @@
       "error": null
     },
     "matsui": {
-      "items": 14,
+      "items": 9,
       "error": null
     }
   },
@@ -367,7 +367,7 @@
       "name": "あみやき亭",
       "announcement_date": "2026-10-05",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1002.xlsx"
     },
     {
       "code": "2789",
