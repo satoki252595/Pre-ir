@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-15T00:10:13Z",
+  "fetched_at": "2026-10-15T14:39:33Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
-      "items": 3200,
+      "items": 3201,
       "error": null
     },
     "nikkeiyosoku": {
@@ -23,7 +23,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 475,
+      "items": 476,
       "error": null
     },
     "matsui": {
@@ -2859,7 +2859,7 @@
       "name": "ゲンダイエージェンシー",
       "announcement_date": "2026-10-16",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1009.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "2972",
