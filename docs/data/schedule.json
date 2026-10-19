@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-18T23:45:58Z",
+  "fetched_at": "2026-10-19T16:47:07Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
-      "items": 3225,
+      "items": 3227,
       "error": null
     },
     "nikkeiyosoku": {
@@ -23,11 +23,11 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 498,
+      "items": 497,
       "error": null
     },
     "matsui": {
-      "items": 4,
+      "items": 5,
       "error": null
     }
   },
@@ -2922,14 +2922,14 @@
       "name": "アルインコ",
       "announcement_date": "2026-10-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1016.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "5990",
       "name": "スーパーツール",
       "announcement_date": "2026-10-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1016.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "8968",
