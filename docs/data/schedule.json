@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-20T00:46:21Z",
+  "fetched_at": "2026-10-20T14:39:17Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
@@ -2922,14 +2922,14 @@
       "name": "アルインコ",
       "announcement_date": "2026-10-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1016.xlsx"
     },
     {
       "code": "5990",
       "name": "スーパーツール",
       "announcement_date": "2026-10-20",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1016.xlsx"
     },
     {
       "code": "8968",
@@ -2950,14 +2950,14 @@
       "name": "アジュバンホールディングス",
       "announcement_date": "2026-10-21",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1016.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "5576",
       "name": "オービーシステム",
       "announcement_date": "2026-10-21",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1016.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "8953",
