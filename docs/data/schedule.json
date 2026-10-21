@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-21T00:12:41Z",
+  "fetched_at": "2026-10-21T14:50:56Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
-      "items": 3227,
+      "items": 3229,
       "error": null
     },
     "nikkeiyosoku": {
@@ -2950,14 +2950,14 @@
       "name": "アジュバンホールディングス",
       "announcement_date": "2026-10-21",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1016.xlsx"
     },
     {
       "code": "5576",
       "name": "オービーシステム",
       "announcement_date": "2026-10-21",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1016.xlsx"
     },
     {
       "code": "8953",
@@ -2978,21 +2978,21 @@
       "name": "石塚硝子",
       "announcement_date": "2026-10-22",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1016.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "6146",
       "name": "ディスコ",
       "announcement_date": "2026-10-22",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1016.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "8617",
       "name": "光世証券",
       "announcement_date": "2026-10-22",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1016.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "8954",
@@ -3006,7 +3006,7 @@
       "name": "ＳＥホールディングス・アンド・インキュベーションズ",
       "announcement_date": "2026-10-22",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1016.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
     },
     {
       "code": "2268",
