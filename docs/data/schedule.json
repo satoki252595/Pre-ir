@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-22T14:51:40Z",
+  "fetched_at": "2026-10-23T00:14:13Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
@@ -27,7 +27,7 @@
       "error": null
     },
     "matsui": {
-      "items": 6,
+      "items": 13,
       "error": null
     }
   },
