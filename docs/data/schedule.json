@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-25T14:05:37Z",
+  "fetched_at": "2026-10-25T23:39:09Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
@@ -7,7 +7,7 @@
       "error": null
     },
     "nikkeiyosoku": {
-      "items": 855,
+      "items": 859,
       "error": null
     },
     "kabutan": {
@@ -27,10 +27,8 @@
       "error": null
     },
     "matsui": {
-      "items": 0,
-      "error": "matsui: no rows parsed",
-      "http_status": null,
-      "body_snippet": ""
+      "items": 10,
+      "error": null
     }
   },
   "count": 3245,
