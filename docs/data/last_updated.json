@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T16:34:55Z",
+  "generated_at": "2026-10-30T01:24:01Z",
   "schedule_count": 3247,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -10,7 +10,7 @@
       "error": null
     },
     "nikkeiyosoku": {
-      "items": 862,
+      "items": 865,
       "error": null
     },
     "kabutan": {
@@ -26,7 +26,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 498,
+      "items": 499,
       "error": null
     },
     "matsui": {
