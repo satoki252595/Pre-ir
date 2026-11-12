@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-12T02:34:30Z",
-  "schedule_count": 3057,
+  "generated_at": "2026-11-12T17:54:50Z",
+  "schedule_count": 3060,
   "evaluated_count": 0,
   "screened_count": 0,
   "schedule_primary_source": "jpx",
   "schedule_sources_results": {
     "jpx": {
-      "items": 3349,
+      "items": 3523,
       "error": null
     },
     "nikkeiyosoku": {
@@ -26,7 +26,7 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 463,
+      "items": 454,
       "error": null
     },
     "matsui": {
