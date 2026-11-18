@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-18T03:11:17Z",
-  "schedule_count": 3055,
+  "generated_at": "2026-11-18T18:39:36Z",
+  "schedule_count": 3056,
   "evaluated_count": 0,
   "screened_count": 0,
   "schedule_primary_source": "jpx",
   "schedule_sources_results": {
     "jpx": {
-      "items": 3055,
+      "items": 3060,
       "error": null
     },
     "nikkeiyosoku": {
@@ -31,14 +31,14 @@
     },
     "matsui": {
       "items": 0,
-      "error": "matsui: no rows parsed",
+      "error": "matsui failed: GET failed for https://finance.matsui.co.jp/find-by-schedule/index: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='finance.matsui.co.jp', port=443): Read timed out. (read timeout=25)\")) (status=None)",
       "http_status": null,
       "body_snippet": ""
     }
   },
   "fundamentals_source": "irbank.net",
   "fundamentals_count": 0,
-  "fundamentals_failure_count": 270,
+  "fundamentals_failure_count": 271,
   "fundamentals_connectivity_error": {
     "source": "irbank.net",
     "status": 403,
