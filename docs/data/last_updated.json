@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T18:39:36Z",
+  "generated_at": "2026-11-19T02:52:26Z",
   "schedule_count": 3056,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -30,15 +30,13 @@
       "error": null
     },
     "matsui": {
-      "items": 0,
-      "error": "matsui failed: GET failed for https://finance.matsui.co.jp/find-by-schedule/index: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='finance.matsui.co.jp', port=443): Read timed out. (read timeout=25)\")) (status=None)",
-      "http_status": null,
-      "body_snippet": ""
+      "items": 5,
+      "error": null
     }
   },
   "fundamentals_source": "irbank.net",
   "fundamentals_count": 0,
-  "fundamentals_failure_count": 271,
+  "fundamentals_failure_count": 227,
   "fundamentals_connectivity_error": {
     "source": "irbank.net",
     "status": 403,
