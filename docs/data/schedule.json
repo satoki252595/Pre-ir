@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-11-19T02:52:19Z",
+  "fetched_at": "2026-11-19T18:52:14Z",
   "primary_source": "jpx",
   "sources_results": {
     "jpx": {
-      "items": 3060,
+      "items": 3055,
       "error": null
     },
     "nikkeiyosoku": {
@@ -23,15 +23,17 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 400,
+      "items": 396,
       "error": null
     },
     "matsui": {
-      "items": 5,
-      "error": null
+      "items": 0,
+      "error": "matsui failed: GET failed for https://finance.matsui.co.jp/find-by-schedule/index: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='finance.matsui.co.jp', port=443): Read timed out. (read timeout=25)\")) (status=None)",
+      "http_status": null,
+      "body_snippet": ""
     }
   },
-  "count": 3056,
+  "count": 3055,
   "items": [
     {
       "code": "2753",
@@ -19841,35 +19843,28 @@
       "name": "ＳＯＭＰＯホールディングス",
       "announcement_date": "2026-11-19",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1106.xlsx"
     },
     {
       "code": "8725",
       "name": "ＭＳ＆ＡＤインシュアランスグループホールディングス",
       "announcement_date": "2026-11-19",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1106.xlsx"
     },
     {
       "code": "8766",
       "name": "東京海上ホールディングス",
       "announcement_date": "2026-11-19",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
-    },
-    {
-      "code": "8958",
-      "name": "グローバル・ワン不動産投資法人",
-      "announcement_date": "2026-11-19",
-      "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1106.xlsx"
     },
     {
       "code": "8986",
       "name": "大和証券リビング投資法人",
       "announcement_date": "2026-11-19",
       "source": "jpx",
-      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan.xlsx"
+      "source_url": "https://www.jpx.co.jp/listing/event-schedules/financial-announcement/tvdivq0000001ofb-att/kessan09_1106.xlsx"
     },
     {
       "code": "2391",
