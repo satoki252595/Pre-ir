@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T18:52:21Z",
+  "generated_at": "2026-11-20T02:42:41Z",
   "schedule_count": 3055,
   "evaluated_count": 0,
   "screened_count": 0,
@@ -26,12 +26,12 @@
       "body_snippet": ""
     },
     "traders": {
-      "items": 396,
+      "items": 397,
       "error": null
     },
     "matsui": {
       "items": 0,
-      "error": "matsui failed: GET failed for https://finance.matsui.co.jp/find-by-schedule/index: ReadTimeout(ReadTimeoutError(\"HTTPSConnectionPool(host='finance.matsui.co.jp', port=443): Read timed out. (read timeout=25)\")) (status=None)",
+      "error": "matsui: no rows parsed",
       "http_status": null,
       "body_snippet": ""
     }
